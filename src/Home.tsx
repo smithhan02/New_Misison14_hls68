@@ -10,7 +10,9 @@ function Home() {
           />
         </div>
         <div className="col-md-8 align-self-center">
-          <h1 className="display-4 mb-4">Welcome to Movie Info</h1>
+          <h1 className="display-4 mb-4">
+            Welcome to Hilton's Movie Collection
+          </h1>
           <p className="lead">
             Discover the latest movies in Joel Hilton's Collection.
           </p>
