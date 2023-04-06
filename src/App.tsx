@@ -6,6 +6,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./Home";
 import Podcasts from "./Podcasts";
 import NavBar from "./NavBar";
+import MovieCollectionList from "./Movies/MovieCollectionList";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/MovieList" element={<MovieList />} />
         <Route path="/Podcasts" element={<Podcasts />} />
+        <Route path="/MovieCollectionList" element={<MovieCollectionList />} />
       </Routes>
     </div>
   );
